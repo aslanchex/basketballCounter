@@ -84,5 +84,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void resetCounter(View view) {
         scoreTeamA = scoreTeamB = 0;
+        displayForTeamA(0);
+        displayForTeamB(0);
     }
 }
